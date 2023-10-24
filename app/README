@@ -1,0 +1,6 @@
+Refactor information:
+1. Create tables and data using migration functionality. Please check the file Version20231024034055.php
+2. Create User Enity and User Repository
+3. Use Entity and Repository to interact with the database
+4. Split the request() function in the controller into many functions corresponding to different functions such as createUser, getUsers, deleteUser
+5. Add data validation code when creating a user
